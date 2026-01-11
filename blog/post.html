@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- title は JS が記事ごとに変える -->
+  <title>記事 | #コム旅</title>
+
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- canonical -->
+  <link rel="canonical" id="canonicalLink" href="https://komtabi.com/post.html">
+
+  <!-- SEO description -->
+  <meta name="description" id="metaDesc" content="#コム旅の記事。旅の記録を写真と一緒にまとめています。">
+
+  <!-- OGP -->
+  <meta property="og:site_name" content="#コム旅">
+  <meta property="og:type" content="article">
+  <meta property="og:locale" content="ja_JP">
+  <meta property="og:url" id="ogUrl" content="https://komtabi.com/post.html">
+  <meta property="og:title" id="ogTitle" content="記事 | #コム旅">
+  <meta property="og:description" id="ogDesc" content="#コム旅の記事。旅の記録を写真と一緒にまとめています。">
+  <meta property="og:image" id="ogImage" content="https://komtabi.com/img/ogp.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" id="twTitle" content="記事 | #コム旅">
+  <meta name="twitter:description" id="twDesc" content="#コム旅の記事。旅の記録を写真と一緒にまとめています。">
+  <meta name="twitter:image" id="twImage" content="https://komtabi.com/img/ogp.jpg">
+
+  <!-- パンくず構造化データ -->
+  <script type="application/ld+json" id="breadcrumbJson"></script>
+<!-- favicon -->
+<link rel="icon" href="/img/favicon-48.png" sizes="48x48" type="image/png">
+<link rel="icon" href="/img/favicon-96.png" sizes="96x96" type="image/png">
+<link rel="apple-touch-icon" href="/img/favicon-180.png">
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3009050769012166"
+     crossorigin="anonymous"></script>
+</head>
+<body>
+
+  <!-- ロゴ -->
+  <a href="index.html" class="logo">
+    <img src="img/logo.png" alt="#コム旅 ロゴ">
+  </a>
+
+  <!-- ハンバーガー -->
+  <button class="menu-btn" id="menuBtn" aria-label="メニューを開閉">
+    <span></span><span></span><span></span>
+  </button>
+
+  <!-- メニュー -->
+  <nav class="menu" id="menu">
+    <div class="menu-inner">
+      <ul class="menu-list">
+        <li><a href="travel.html">#旅行記</a></li>
+        <li><a href="modelcourse.html">#モデルコース</a></li>
+        <li><a href="prefectures.html">#47都道府県制覇の旅</a></li>
+        <li><a href="tags.html">#タグ</a></li>
+        <li><a href="contact.html">#お問い合わせ</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ヒーロー -->
+  <div id="postHero" class="post-hero">
+    <div class="post-hero-media"></div>
+    <div class="post-hero-overlay"></div>
+  </div>
+
+  <!-- 本文 -->
+  <main class="container">
+    <article class="post">
+
+      <!-- パンくず -->
+      <nav id="breadcrumb" class="breadcrumb"></nav>
+
+      <!-- 一覧に戻る -->
+      <div class="post-back">
+        <a id="backToList" href="travel.html">← 旅行記一覧に戻る</a>
+      </div>
+
+      <h1 id="postTitle" class="post-title"></h1>
+      <time id="postDate" class="post-date"></time>
+
+      <ul id="postTags" class="post-tags"></ul>
+
+      <div id="postContent" class="post-content"></div>
+
+<!-- ✅ Ad: post bottom（本文末） -->
+<section class="ad-wrap is-hidden" id="ad-post-bottom" aria-label="広告">
+  <div class="ad-label">広告</div>
+  <ins class="adsbygoogle ad-unit"
+    style="display:block"
+    data-ad-client="ca-pub-3009050769012166"
+    data-ad-slot="1234567890"
+    data-ad-format="auto"
+    data-full-width-responsive="true"></ins>
+</section>
+
+      <!-- 関連記事 -->
+      <section class="related-posts">
+        <h2>関連記事</h2>
+        <div id="relatedPosts" class="related-list"></div>
+      </section>
+<div class="post-back post-back-bottom">
+  <a id="backToListBottom" href="travel.html">← 旅行記一覧に戻る</a>
+</div>
+
+    </article>
+
+
+    <!-- 前後記事 -->
+    <nav class="post-nav">
+      <a id="prevPost" class="post-nav-link prev"></a>
+      <a id="nextPost" class="post-nav-link next"></a>
+    </nav>
+  </main>
+
+  <footer class="site-footer">
+    <p>© 2026 #コム旅</p>
+  </footer>
+
+  <!-- scripts -->
+<link rel="stylesheet" href="css/style.css?v=20260111" />
+<script src="js/data/posts.js?v=20260111"></script>
+<script src="js/data/courses.js?v=20260111"></script>
+<script src="js/data/visited.js?v=20260111"></script>
+<script src="js/main.js?v=20260111"></script>
+
+</body>
+</html>
